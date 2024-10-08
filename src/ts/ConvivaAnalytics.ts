@@ -21,11 +21,11 @@ import { ObjectUtils } from './helper/ObjectUtils';
 import { PlayerEventWrapper } from './helper/PlayerEventWrapper';
 import { Html5Logging } from './Html5Logging';
 
-import * as pkg from '../../package.json'
+import * as pkg from '../../package.json';
 
 
 export class ConvivaAnalytics {
-  public readonly version = pkg.version
+  public readonly version = pkg.version;
   private handlers?: PlayerEventWrapper;
   public readonly convivaAnalyticsTracker: ConvivaAnalyticsTracker;
   private _player?: PlayerAPI;
